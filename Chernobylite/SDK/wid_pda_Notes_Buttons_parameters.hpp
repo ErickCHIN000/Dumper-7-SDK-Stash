@@ -1,0 +1,44 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+namespace Params
+{
+//---------------------------------------------------------------------------------------------------------------------
+// PARAMETERS
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x4 (0x4 - 0x0)
+// Function wid_pda_Notes_Buttons.wid_pda_Notes_Buttons_C.Update
+struct UWid_pda_Notes_Buttons_C_Update_Params
+{
+public:
+	struct FStruct_Notes_ButtonsInfo             Info;                                              // 0x0(0x4)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// 0x1 (0x1 - 0x0)
+// Function wid_pda_Notes_Buttons.wid_pda_Notes_Buttons_C.PreConstruct
+struct UWid_pda_Notes_Buttons_C_PreConstruct_Params
+{
+public:
+	bool                                         IsDesignTime;                                      // 0x0(0x1)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+};
+
+// 0x5 (0x5 - 0x0)
+// Function wid_pda_Notes_Buttons.wid_pda_Notes_Buttons_C.ExecuteUbergraph_wid_pda_Notes_Buttons
+struct UWid_pda_Notes_Buttons_C_ExecuteUbergraph_wid_pda_Notes_Buttons_Params
+{
+public:
+	int32                                        EntryPoint;                                        // 0x0(0x4)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         K2Node_Event_IsDesignTime;                         // 0x4(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+};
+
+}
+}
+
+

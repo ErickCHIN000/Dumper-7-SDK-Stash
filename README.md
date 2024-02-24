@@ -3,11 +3,14 @@
 
 Games
 - [X] Breeders of the Nephelym Alpha
+- [X] Chernobylite
 - [X] Daemon X Machina
 - [X] Desolate
+- [X] Goat Simulator 3
 - [X] Icarus
 - [X] Islands of Insight
 - [X] Maneater
+- [X] Mortal Shell
 - [X] Nightingale
 - [X] Palworld
 - [X] Surroundead
