@@ -1,0 +1,29 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// CLASSES
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x0 (0x78 - 0x78)
+// BlueprintGeneratedClass GC_Impact_Shared_Melee.GC_Impact_Shared_Melee_C
+class UGC_Impact_Shared_Melee_C : public UGC_Impact_Shared_C
+{
+public:
+
+	static class UClass* StaticClass();
+	static class UGC_Impact_Shared_Melee_C* GetDefaultObj();
+
+	void SpawnImpactVFX(struct FS_NiagaraImpactResponse& NiagaraResponse, TArray<struct FHitResult>& HitResults, struct FGameplayTag& ImpactTag, struct FGameplayTag& ElementalTag, class AActor*& StrikingActor, TArray<class UObject*>& Temp_object_Variable, bool CallFunc_EqualEqual_GameplayTag_ReturnValue, bool CallFunc_BreakHitResult_bBlockingHit, bool CallFunc_BreakHitResult_bInitialOverlap, float CallFunc_BreakHitResult_Time, float CallFunc_BreakHitResult_Distance, const struct FVector& CallFunc_BreakHitResult_Location, const struct FVector& CallFunc_BreakHitResult_ImpactPoint, const struct FVector& CallFunc_BreakHitResult_Normal, const struct FVector& CallFunc_BreakHitResult_ImpactNormal, class UPhysicalMaterial* CallFunc_BreakHitResult_PhysMat, class AActor* CallFunc_BreakHitResult_HitActor, class UPrimitiveComponent* CallFunc_BreakHitResult_HitComponent, class FName CallFunc_BreakHitResult_HitBoneName, class FName CallFunc_BreakHitResult_BoneName, int32 CallFunc_BreakHitResult_HitItem, int32 CallFunc_BreakHitResult_ElementIndex, int32 CallFunc_BreakHitResult_FaceIndex, const struct FVector& CallFunc_BreakHitResult_TraceStart, const struct FVector& CallFunc_BreakHitResult_TraceEnd, const struct FLinearColor& Temp_struct_Variable, const struct FVector& CallFunc_Subtract_VectorVector_ReturnValue, const struct FLinearColor& Temp_struct_Variable_1, const struct FHitResult& CallFunc_NWXLineTraceSingle_OutHit, bool CallFunc_NWXLineTraceSingle_ReturnValue, const struct FGameplayTag& Temp_struct_Variable_2, TArray<struct FHitResult>& K2Node_MakeArray_Array);
+	void GetElementTagFromActor(class AActor* Actor, struct FGameplayTag* ElementalTag, class AEquippableItem* Temp_object_Variable, TScriptInterface<class IGameplayTagAssetInterface> K2Node_DynamicCast_AsGameplay_Tag_Asset_Interface, bool K2Node_DynamicCast_bSuccess, bool CallFunc_HasMatchingGameplayTag_ReturnValue, class ABP_Character_C* K2Node_DynamicCast_AsBP_Character, bool K2Node_DynamicCast_bSuccess_1, bool CallFunc_IsValid_ReturnValue, TScriptInterface<class ILoadoutReadInterface> K2Node_DynamicCast_AsLoadout_Read_Interface, bool K2Node_DynamicCast_bSuccess_2, class AEquippableItem* CallFunc_GetEquippedItem_ReturnValue, bool CallFunc_EqualEqual_ObjectObject_ReturnValue, bool CallFunc_IsValid_ReturnValue_1, bool Temp_bool_Variable, bool Temp_bool_Variable_1, bool Temp_bool_Variable_2, TScriptInterface<class IGameplayTagAssetInterface> K2Node_DynamicCast_AsGameplay_Tag_Asset_Interface_1, bool K2Node_DynamicCast_bSuccess_3, TScriptInterface<class IGameplayTagAssetInterface> K2Node_DynamicCast_AsGameplay_Tag_Asset_Interface_2, bool K2Node_DynamicCast_bSuccess_4, bool CallFunc_HasMatchingGameplayTag_ReturnValue_1, bool CallFunc_HasMatchingGameplayTag_ReturnValue_2, bool Temp_bool_Variable_3, TScriptInterface<class IGameplayTagAssetInterface> K2Node_DynamicCast_AsGameplay_Tag_Asset_Interface_3, bool K2Node_DynamicCast_bSuccess_5, bool CallFunc_HasMatchingGameplayTag_ReturnValue_3, bool CallFunc_Not_PreBool_ReturnValue);
+	void Get_Override_Impact_Direction(struct FHitResult& HitResult, struct FVector* ImpactDirection, double Radius, bool CallFunc_BreakHitResult_bBlockingHit, bool CallFunc_BreakHitResult_bInitialOverlap, float CallFunc_BreakHitResult_Time, float CallFunc_BreakHitResult_Distance, const struct FVector& CallFunc_BreakHitResult_Location, const struct FVector& CallFunc_BreakHitResult_ImpactPoint, const struct FVector& CallFunc_BreakHitResult_Normal, const struct FVector& CallFunc_BreakHitResult_ImpactNormal, class UPhysicalMaterial* CallFunc_BreakHitResult_PhysMat, class AActor* CallFunc_BreakHitResult_HitActor, class UPrimitiveComponent* CallFunc_BreakHitResult_HitComponent, class FName CallFunc_BreakHitResult_HitBoneName, class FName CallFunc_BreakHitResult_BoneName, int32 CallFunc_BreakHitResult_HitItem, int32 CallFunc_BreakHitResult_ElementIndex, int32 CallFunc_BreakHitResult_FaceIndex, const struct FVector& CallFunc_BreakHitResult_TraceStart, const struct FVector& CallFunc_BreakHitResult_TraceEnd, const struct FVector& CallFunc_Subtract_VectorVector_ReturnValue, const struct FVector& CallFunc_ProjectVectorOnToPlane_ReturnValue, const struct FVector& CallFunc_Normal_ReturnValue);
+	void Get_Impact_Tag(class UObject* Object, struct FGameplayTag* Tag, class AEquippableItem* EquippedItem, class AEquippableItem* Temp_object_Variable, class ANWXCharacter* K2Node_DynamicCast_AsNWXCharacter, bool K2Node_DynamicCast_bSuccess, TScriptInterface<class ILoadoutReadInterface> K2Node_DynamicCast_AsLoadout_Read_Interface, bool K2Node_DynamicCast_bSuccess_1, TScriptInterface<class ILoadoutReadInterface> K2Node_DynamicCast_AsLoadout_Read_Interface_1, bool K2Node_DynamicCast_bSuccess_2, class AEquippableItem* CallFunc_GetOffhandEquippedItem_ReturnValue, class AEquippableItem* CallFunc_GetEquippedItem_ReturnValue, TScriptInterface<class IGameplayTagAssetInterface> CallFunc_HasMatchingGameplayTag_self_CastInput, bool CallFunc_HasMatchingGameplayTag_ReturnValue, class AEquippableItem* Temp_object_Variable_1, class ABP_EquippableItemBase_C* K2Node_DynamicCast_AsBP_Equippable_Item_Base, bool K2Node_DynamicCast_bSuccess_3, const struct FGameplayTag& CallFunc_GetMeleeImpactTag_MeleeImpactTag, bool CallFunc_IsValid_ReturnValue);
+};
+
+}
+
+

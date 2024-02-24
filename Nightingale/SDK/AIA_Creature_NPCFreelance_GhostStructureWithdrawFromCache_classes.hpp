@@ -1,0 +1,36 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// CLASSES
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x1E (0xE0 - 0xC2)
+// BlueprintGeneratedClass AIA_Creature_NPCFreelance_GhostStructureWithdrawFromCache.AIA_Creature_NPCFreelance_GhostStructureWithdrawFromCache_C
+class UAIA_Creature_NPCFreelance_GhostStructureWithdrawFromCache_C : public UAIA_Creature_NPCFreelance_C
+{
+public:
+	uint8                                        Pad_61B8[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0xC8(0x8)(ZeroConstructor, Transient, DuplicateTransient)
+	double                                       MinDistance;                                       // 0xD0(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                       MaxDistance;                                       // 0xD8(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+	static class UClass* StaticClass();
+	static class UAIA_Creature_NPCFreelance_GhostStructureWithdrawFromCache_C* GetDefaultObj();
+
+	void CheckCacheForRequirement(TArray<class AActor*>& Resource_Caches, class ANWXActor* StructureActor, const struct FVector& SearchLocation, double SearchDistance, TScriptInterface<class IItemContainer> NPCInventory, bool* Result, TArray<struct FInventoryEntryIdAndQuantity>* FoundInventoryEntry, class AActor** FoundCache, const TArray<struct FInventoryEntryIdAndQuantity>& OutRequirements, const struct FInventoryEntry& LCurrentEntry, TScriptInterface<class IItemContainer> LCacheContainer, const struct FInventoryEntry& LFoundInventoryEntry, class AActor* LCurrentCache, int32 Temp_int_Loop_Counter_Variable, int32 CallFunc_Array_Length_ReturnValue, int32 CallFunc_Add_IntInt_ReturnValue, bool CallFunc_Less_IntInt_ReturnValue, int32 Temp_int_Array_Index_Variable, class AActor* CallFunc_Array_Get_Item, bool CallFunc_IsValid_ReturnValue, bool CallFunc_IsTargetReachableOnNavMesh_ReturnValue, TArray<struct FInventoryEntryIdAndQuantity>& CallFunc_GetMatchingRequirements_OutMatchingItems, TScriptInterface<class IItemContainerProvider> K2Node_DynamicCast_AsItem_Container_Provider, bool K2Node_DynamicCast_bSuccess, bool CallFunc_Array_IsNotEmpty_ReturnValue, TScriptInterface<class IItemContainer> CallFunc_GetDefaultContainer_ReturnValue, class UObject* CallFunc_Conv_InterfaceToObject_ReturnValue, TScriptInterface<class IStructureStateInterface> K2Node_DynamicCast_AsStructure_State_Interface, bool K2Node_DynamicCast_bSuccess_1, bool CallFunc_IsValid_ReturnValue_1, enum class EStructureState CallFunc_GetSchematicState_ReturnValue, bool CallFunc_EqualEqual_ByteByte_ReturnValue, bool CallFunc_DoesImplementInterface_ReturnValue, const struct FVector& CallFunc_K2_GetActorLocation_ReturnValue, double CallFunc_Vector_Distance_ReturnValue, bool CallFunc_LessEqual_DoubleDouble_ReturnValue);
+	void CheckStructureRequirements(TArray<struct FStructureResourceRequirements>& Requirements, bool* Result, int32 CallFunc_Array_Length_ReturnValue, int32 Temp_int_Array_Index_Variable, int32 Temp_int_Loop_Counter_Variable, const struct FStructureResourceRequirements& CallFunc_Array_Get_Item, int32 CallFunc_GetQuantityRemaining_ReturnValue, bool CallFunc_Less_IntInt_ReturnValue, bool CallFunc_Greater_IntInt_ReturnValue, int32 CallFunc_Add_IntInt_ReturnValue);
+	bool CheckTargetRequirements(class AActor* Target, class UAILoadoutComponentBase* LLoadoutComp, class ABP_CreatureSpawner_NPCGroup_C* LNPCGroup, TScriptInterface<class IItemContainer> LNPCContainer, const struct FVector& LSearchLocation, double LAdjustedMaxDist, const TArray<struct FStructureResourceRequirements>& LRequirements, class ANWXActor* LStructureActor, bool CallFunc_CheckTargetRequirements_ReturnValue, TScriptInterface<class ISchematicInfoInterface> K2Node_DynamicCast_AsSchematic_Info_Interface, bool K2Node_DynamicCast_bSuccess, TArray<struct FStructureResourceRequirements>& CallFunc_GetTotalResourceRequirements_ReturnValue, bool CallFunc_Array_IsNotEmpty_ReturnValue, bool CallFunc_ContainerHasAnyRequirements_ReturnValue, bool CallFunc_HasPerceivedContainers_Result, bool CallFunc_Not_PreBool_ReturnValue, TArray<struct FStructureResourceRequirements>& Temp_struct_Variable, class UObject* CallFunc_Conv_InterfaceToObject_ReturnValue, bool CallFunc_IsValid_ReturnValue, bool CallFunc_CheckCacheForRequirement_Result, TArray<struct FInventoryEntryIdAndQuantity>& CallFunc_CheckCacheForRequirement_FoundInventoryEntry, class AActor* CallFunc_CheckCacheForRequirement_FoundCache, bool CallFunc_IsValid_ReturnValue_1, TScriptInterface<class IItemContainerProvider> K2Node_DynamicCast_AsItem_Container_Provider, bool K2Node_DynamicCast_bSuccess_1, TScriptInterface<class IItemContainer> CallFunc_GetDefaultContainer_ReturnValue, const struct FVector& CallFunc_GetCompanionSearchParameters_SearchLocation, float CallFunc_GetCompanionSearchParameters_SearchRadius, const struct FVector& CallFunc_K2_GetActorLocation_ReturnValue, double CallFunc_Vector_Distance_ReturnValue, class ANWXActor* K2Node_DynamicCast_AsNWXActor, bool K2Node_DynamicCast_bSuccess_2, bool CallFunc_LessEqual_DoubleDouble_ReturnValue, const class FString& CallFunc_GetDisplayName_ReturnValue, const class FString& CallFunc_Concat_StrStr_ReturnValue, class UAILoadoutComponentBase* CallFunc_GetComponentByClass_ReturnValue, bool CallFunc_IsValid_ReturnValue_2, const class FString& CallFunc_GetDisplayName_ReturnValue_1, class ABP_CreatureSpawner_NPCGroup_C* CallFunc_Get_NPCGroup_NPCGroup, const class FString& CallFunc_Concat_StrStr_ReturnValue_1, enum class EBlackboardGetResult CallFunc_TrySetBlackboardObject_Branches, bool CallFunc_CheckStructureRequirements_Result, bool K2Node_SwitchEnum_CmpSuccess, float CallFunc_GetCompanionSearchParameters_DesiredSearchRadius_ImplicitCast, double K2Node_VariableSet_LAdjustedMaxDist_ImplicitCast);
+	float GetNormalizedScore(class AActor* Target, class APawn* CallFunc_GetOwnerPawn_ReturnValue, double CallFunc_GetNormalizedDistanceScore_ReturnValue, float K2Node_FunctionResult_ReturnValue_ImplicitCast);
+	bool CheckStaticTargetRequirements(class AActor* Target, bool CallFunc_IsValid_ReturnValue, class UAbilitySystemComponent* CallFunc_GetAbilitySystemComponent_ReturnValue, bool CallFunc_IsValid_ReturnValue_1, TScriptInterface<class IGameplayTagAssetInterface> CallFunc_GetOwnedGameplayTags_self_CastInput, const struct FGameplayTagContainer& CallFunc_GetOwnedGameplayTags_TagContainer, bool CallFunc_HasTag_ReturnValue, bool CallFunc_HasTag_ReturnValue_1, bool CallFunc_BooleanOR_ReturnValue);
+	void Start(class AActor* Target);
+	void ExecuteUbergraph_AIA_Creature_NPCFreelance_GhostStructureWithdrawFromCache(int32 EntryPoint, class AActor* K2Node_Event_Target, class ANWXActor* K2Node_DynamicCast_AsNWXActor, bool K2Node_DynamicCast_bSuccess);
+};
+
+}
+
+

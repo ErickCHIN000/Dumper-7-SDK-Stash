@@ -1,0 +1,30 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// CLASSES
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x0 (0x28 - 0x28)
+// BlueprintGeneratedClass BP_PlacerObject_StructureSnappable.BP_PlacerObject_StructureSnappable_C
+class UBP_PlacerObject_StructureSnappable_C : public UBP_StructurePlacerObject_C
+{
+public:
+
+	static class UClass* StaticClass();
+	static class UBP_PlacerObject_StructureSnappable_C* GetDefaultObj();
+
+	bool FinalizeStructureData(class UObject* Structure, class AController* Controller, struct FSnapPlacementTargetData& SnapData, class UCompositePieceSnapObject* AttachedObjectSnapComponent, const struct FGridPoint& TargetSnapPoint, class UObject* AttachedObject, bool CallFunc_FinalizeStructureData_ReturnValue, class UObject* CallFunc_GetSupportObjectFromStructure_ReturnValue, TScriptInterface<class ISupportInterface> K2Node_DynamicCast_AsSupport_Interface, bool K2Node_DynamicCast_bSuccess, class UObject* CallFunc_GetSnapActorFromTargetData_OutActor, const struct FGridPoint& CallFunc_GetSnapActorFromTargetData_OutSelectedSnapPoint, TScriptInterface<class IStructureSnappableInterface> K2Node_DynamicCast_AsStructure_Snappable_Interface, bool K2Node_DynamicCast_bSuccess_1, TScriptInterface<class IStructureSnappableInterface> K2Node_DynamicCast_AsStructure_Snappable_Interface_1, bool K2Node_DynamicCast_bSuccess_2, class UCompositePieceSnapObject* CallFunc_GetSnapComponent_SnapObject, class UCompositePieceSnapObject* CallFunc_GetSnapComponent_SnapObject_1, bool CallFunc_IsValid_ReturnValue, const class FString& CallFunc_GetFunctionName_ReturnValue, bool CallFunc_IsValid_ReturnValue_1);
+	void SetSnapTargetFeedback(struct FStructurePlacementFeedback& Feedback, class UObject* SnapTarget, class AController* Controller, struct FStructurePlacementFeedback* OutFeedback);
+	struct FStructurePlacementFeedback SetPlacementFeedback(class UObject* Structure, class AController* Controller, struct FGameplayAbilityTargetDataHandle& TargetData, const TArray<class AActor*>& NearbyActors, const TArray<struct FGridPoint>& SnapPoints, enum class ESnapType DesiredSnapType, const struct FStructurePlacementFeedback& FeedbackData, class USphereComponent* Temp_object_Variable, int32 Temp_int_Array_Index_Variable, TArray<class AActor*>& CallFunc_GetOverlappingActors_OverlappingActors, bool CallFunc_IsValid_ReturnValue, class AActor* CallFunc_Array_Get_Item, int32 CallFunc_Array_Length_ReturnValue, TScriptInterface<class ISchematicInfoInterface> K2Node_DynamicCast_AsSchematic_Info_Interface, bool K2Node_DynamicCast_bSuccess, const struct FSnapPlacementTargetData& CallFunc_GetSnapPlacementData_OutData, class USphereComponent* CallFunc_GetAreaOfEffect_ReturnValue, class UObject* CallFunc_GetSnapActorFromTargetData_OutActor, const struct FGridPoint& CallFunc_GetSnapActorFromTargetData_OutSelectedSnapPoint, const struct FTransform& CallFunc_GetGridPointWorldTransform_ReturnValue, bool CallFunc_IsValid_ReturnValue_1, const struct FVector& CallFunc_BreakTransform_Location, const struct FRotator& CallFunc_BreakTransform_Rotation, const struct FVector& CallFunc_BreakTransform_Scale, const struct FStructurePlacementFeedback& CallFunc_SetSnapTargetFeedback_OutFeedback, TScriptInterface<class IStructureSnappableInterface> K2Node_DynamicCast_AsStructure_Snappable_Interface, bool K2Node_DynamicCast_bSuccess_1, enum class ESnapType CallFunc_GetSnapType_SnapPointType, const struct FStructurePlacementFeedback_SnapPoint& K2Node_MakeStruct_StructurePlacementFeedback_SnapPoint, TArray<struct FGridPoint>& CallFunc_GetUnoccupiedSnapPointsForPieceOfType_OutMatchingSnapPoints, int32 Temp_int_Loop_Counter_Variable, bool CallFunc_Less_IntInt_ReturnValue, int32 CallFunc_Add_IntInt_ReturnValue, const struct FStructurePlacementFeedback_SnapPoint& K2Node_MakeStruct_StructurePlacementFeedback_SnapPoint_1, TArray<struct FGridPoint>& CallFunc_GetUnoccupiedSnapPointsForPieceViaTrace_OutSnapPoints, TArray<struct FGridPoint>& CallFunc_GetUnoccupiedSnapPointsForPieceOfType_OutMatchingSnapPoints_1, const struct FStructurePlacementFeedback& CallFunc_SetPlacementFeedback_ReturnValue);
+	struct FGameplayAbilityTargetDataHandle GetPlacementTransform(class UObject* Structure, class ACharacter* Character, float OptionalDeltaRotationZ, float OptionalDeltaHeightZ, const struct FGameplayAbilityTargetDataHandle& CallFunc_GetPlacementTransform_ReturnValue, const struct FGameplayAbilityTargetDataHandle& CallFunc_GetPlacementTransform_ReturnValue_1, TScriptInterface<class IStructureSnappableInterface> K2Node_DynamicCast_AsStructure_Snappable_Interface, bool K2Node_DynamicCast_bSuccess, class UCompositePieceSnapObject* CallFunc_GetSnapComponent_SnapObject, bool CallFunc_IsValid_ReturnValue, const struct FGameplayAbilityTargetDataHandle& CallFunc_GetSnapPlacementTransform_SnapTargetData, bool CallFunc_GetSnapPlacementTransform_ReturnValue);
+	void GetObjectsToIgnoreInGeometryTrace(class UObject* ThisStructure, struct FGameplayAbilityTargetDataHandle& TargetData, TArray<class UObject*>* OutObjectsToIgnore, class UObject* LSnapTarget, const TArray<class UObject*>& LIgnoredObjects, TArray<class UObject*>& CallFunc_GetObjectsToIgnoreInGeometryTrace_OutObjectsToIgnore, bool CallFunc_IsValid_ReturnValue, TScriptInterface<class IStructureSnappableInterface> K2Node_DynamicCast_AsStructure_Snappable_Interface, bool K2Node_DynamicCast_bSuccess, class UCompositePieceSnapObject* CallFunc_GetSnapComponent_SnapObject, int32 CallFunc_Array_Add_ReturnValue, bool CallFunc_IsValid_ReturnValue_1, TArray<class UObject*>& CallFunc_GetAllConnectedStructures_ConnectedStructures, int32 CallFunc_Array_Add_ReturnValue_1, const struct FSnapPlacementTargetData& CallFunc_GetSnapPlacementData_OutData, class UObject* CallFunc_GetSnapActorFromTargetData_OutActor, const struct FGridPoint& CallFunc_GetSnapActorFromTargetData_OutSelectedSnapPoint);
+};
+
+}
+
+
