@@ -1,0 +1,44 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// FUNCTIONS
+//---------------------------------------------------------------------------------------------------------------------
+
+
+// BlueprintGeneratedClass BaseDoggySS_G.BaseDoggySS_G_C
+// (None)
+
+class UClass* UBaseDoggySS_G_C::StaticClass()
+{
+	static class UClass* Clss = nullptr;
+
+	if (!Clss)
+		Clss = UObject::FindClassFast("BaseDoggySS_G_C");
+
+	return Clss;
+}
+
+
+// BaseDoggySS_G_C BaseDoggySS_G.Default__BaseDoggySS_G_C
+// (Public, ClassDefaultObject, ArchetypeObject, WasLoaded, LoadCompleted)
+
+class UBaseDoggySS_G_C* UBaseDoggySS_G_C::GetDefaultObj()
+{
+	static class UBaseDoggySS_G_C* Default = nullptr;
+
+	if (!Default)
+		Default = static_cast<UBaseDoggySS_G_C*>(UBaseDoggySS_G_C::StaticClass()->DefaultObject);
+
+	return Default;
+}
+
+}
+
+

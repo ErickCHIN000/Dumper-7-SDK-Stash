@@ -3,10 +3,10 @@
 
 Games
 - [X] Nightingale
-- [ ] Maneater
+- [X] Maneater
 - [ ] Desolate
 - [ ] Daemon X Machina
 - [ ] Surroundead
 - [ ] Palworld
 - [ ] Tiny Tina's Wonderlands
-- [ ] Breeders of the Nephelym Alpha
+- [X] Breeders of the Nephelym Alpha
