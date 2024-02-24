@@ -1,0 +1,41 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// CLASSES
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x80 (0x430 - 0x3B0)
+// BlueprintGeneratedClass BP_TreeHUD.BP_TreeHUD_C
+class ABP_TreeHUD_C : public AIcarusHUD
+{
+public:
+	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x3B0(0x8)(ZeroConstructor, Transient, DuplicateTransient)
+	class USceneComponent*                       DefaultSceneRoot;                                  // 0x3B8(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class ABP_ActorPreview_C*                    PlayerPreview;                                     // 0x3C0(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         ShouldDrawWeather;                                 // 0x3C8(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_3044[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	class ABP_TooltipProjectionActor_C*          ToolTipActor;                                      // 0x3D0(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class ABP_CardPreview_C*                     CardPreview;                                       // 0x3D8(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	TMap<struct FWeatherBiomeGroupsEnum, struct FWeatherBiomeGroupForecast> Biome_Group_Forecast;                              // 0x3E0(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)
+
+	static class UClass* StaticClass();
+	static class ABP_TreeHUD_C* GetDefaultObj();
+
+	void ColorFromTier(int32 Tier, struct FLinearColor* TierColor, int32 MaxTier, float CallFunc_Conv_IntToFloat_ReturnValue, float CallFunc_Conv_IntToFloat_ReturnValue_1, float CallFunc_Divide_FloatFloat_ReturnValue, const struct FLinearColor& CallFunc_LinearColorLerp_ReturnValue);
+	void DrawWeather(int32 SizeX, int32 SizeY, float CurrentBiomeY, int32 NumIntervals, int32 Minutes, int32 EndTime, int32 StartTime, const struct FVector2D& StartLocation, const struct FVector2D& Size, const struct FVector2D& ScreenPercent, float CallFunc_Conv_IntToFloat_ReturnValue, int32 Temp_int_Loop_Counter_Variable, int32 CallFunc_Add_IntInt_ReturnValue, int32 Temp_int_Array_Index_Variable, const struct FLinearColor& CallFunc_LinearColor_Gray_ReturnValue, int32 Temp_int_Variable, int32 CallFunc_GetLevelTimeElapsedSec_ReturnValue, int32 CallFunc_Add_IntInt_ReturnValue_1, int32 Temp_int_Variable_1, const struct FWeatherBiomeGroupsEnum& CallFunc_IntToStruct_ReturnValue, class FName CallFunc_StructToName_ReturnValue, int32 CallFunc_StructToInt_ReturnValue, const class FString& CallFunc_Conv_NameToString_ReturnValue, const struct FWeatherBiomeGroupForecast& CallFunc_Map_Find_Value, bool CallFunc_Map_Find_ReturnValue, TArray<int32>& CallFunc_Map_Keys_Keys, float CallFunc_Conv_IntToFloat_ReturnValue_1, int32 CallFunc_Array_Get_Item, int32 CallFunc_Array_Length_ReturnValue, const struct FWeatherEventsRowHandle& CallFunc_Map_Find_Value_1, bool CallFunc_Map_Find_ReturnValue_1, bool CallFunc_Less_IntInt_ReturnValue, const struct FIcarusWeatherEvent& CallFunc_GetWeatherEventsStruct_WeatherEvents, enum class EValid CallFunc_GetWeatherEventsStruct_Paths, bool K2Node_SwitchEnum_CmpSuccess, const class FString& CallFunc_Conv_NameToString_ReturnValue_1, int32 CallFunc_GetEventEndTime_EndTime, const struct FLinearColor& CallFunc_ColorFromTier_TierColor, int32 CallFunc_Subtract_IntInt_ReturnValue, int32 CallFunc_Map_Length_ReturnValue, float CallFunc_Conv_IntToFloat_ReturnValue_2, bool CallFunc_Greater_IntInt_ReturnValue, float CallFunc_BreakVector2D_X, float CallFunc_BreakVector2D_Y, float CallFunc_BreakVector2D_X_1, float CallFunc_BreakVector2D_Y_1, float CallFunc_Subtract_FloatFloat_ReturnValue, float CallFunc_Multiply_IntFloat_ReturnValue, const struct FVector2D& CallFunc_MakeVector2D_ReturnValue, const struct FVector2D& CallFunc_MakeVector2D_ReturnValue_1, float CallFunc_BreakVector2D_X_2, float CallFunc_BreakVector2D_Y_2, float CallFunc_BreakVector2D_X_3, float CallFunc_BreakVector2D_Y_3, float CallFunc_Subtract_FloatFloat_ReturnValue_1, float CallFunc_BreakVector2D_X_4, float CallFunc_BreakVector2D_Y_4, float CallFunc_BreakVector2D_X_5, float CallFunc_BreakVector2D_Y_5, bool CallFunc_Greater_IntInt_ReturnValue_1, float CallFunc_BreakVector2D_X_6, float CallFunc_BreakVector2D_Y_6, float CallFunc_BreakVector2D_X_7, float CallFunc_BreakVector2D_Y_7, float CallFunc_Add_FloatFloat_ReturnValue, float CallFunc_BreakVector2D_X_8, float CallFunc_BreakVector2D_Y_8, float CallFunc_BreakVector2D_X_9, float CallFunc_BreakVector2D_Y_9, float CallFunc_BreakVector2D_X_10, float CallFunc_BreakVector2D_Y_10, float CallFunc_Add_FloatFloat_ReturnValue_1, float CallFunc_Divide_FloatFloat_ReturnValue, float CallFunc_Multiply_IntFloat_ReturnValue_1, float CallFunc_Add_FloatFloat_ReturnValue_2, float CallFunc_BreakVector2D_X_11, float CallFunc_BreakVector2D_Y_11, float CallFunc_Subtract_FloatFloat_ReturnValue_2, float CallFunc_Subtract_FloatFloat_ReturnValue_3, int32 Temp_int_Variable_2, int32 CallFunc_NumRows_ReturnValue, float CallFunc_Multiply_IntFloat_ReturnValue_2, bool CallFunc_Less_IntInt_ReturnValue_1, float CallFunc_Add_FloatFloat_ReturnValue_3, float CallFunc_Add_FloatFloat_ReturnValue_4, bool CallFunc_LessEqual_IntInt_ReturnValue, int32 CallFunc_Add_IntInt_ReturnValue_2, const struct FLinearColor& Temp_wildcard_Variable, int32 CallFunc_Divide_IntInt_ReturnValue, int32 CallFunc_Multiply_IntInt_ReturnValue, const class FString& CallFunc_Conv_IntToString_ReturnValue, int32 CallFunc_Multiply_IntInt_ReturnValue_1, int32 CallFunc_Add_IntInt_ReturnValue_3, float CallFunc_MakeLiteralFloat_ReturnValue, float CallFunc_Multiply_FloatFloat_ReturnValue, float CallFunc_Add_FloatFloat_ReturnValue_5, float CallFunc_Subtract_FloatFloat_ReturnValue_4, bool CallFunc_Less_IntInt_ReturnValue_2, int32 CallFunc_Subtract_IntInt_ReturnValue_1, float CallFunc_Conv_IntToFloat_ReturnValue_3, int32 CallFunc_Subtract_IntInt_ReturnValue_2, float CallFunc_Conv_IntToFloat_ReturnValue_4, float CallFunc_Divide_FloatFloat_ReturnValue_1, float CallFunc_Divide_FloatFloat_ReturnValue_2, float CallFunc_Multiply_FloatFloat_ReturnValue_1, float CallFunc_Multiply_FloatFloat_ReturnValue_2, float CallFunc_Add_FloatFloat_ReturnValue_6, float CallFunc_FMax_ReturnValue);
+	void GetEventEndTime(const struct FWeatherEventsRowHandle& Event, int32 StartTime, int32* EndTime, int32 Summation, const struct FIcarusWeatherEvent& CallFunc_GetWeatherEventsStruct_WeatherEvents, enum class EValid CallFunc_GetWeatherEventsStruct_Paths, int32 Temp_int_Array_Index_Variable, bool K2Node_SwitchEnum_CmpSuccess, int32 Temp_int_Loop_Counter_Variable, const struct FWeatherAction& CallFunc_Array_Get_Item, int32 CallFunc_Add_IntInt_ReturnValue, int32 CallFunc_FTrunc_ReturnValue, int32 CallFunc_Array_Length_ReturnValue, bool CallFunc_Less_IntInt_ReturnValue, int32 CallFunc_Add_IntInt_ReturnValue_1);
+	void ReceiveDrawHUD(int32 SizeX, int32 SizeY);
+	void ReceiveBeginPlay();
+	void SetBiomeWeatherData(TMap<struct FWeatherBiomeGroupsEnum, struct FWeatherBiomeGroupForecast>& BiomeGroupForecast);
+	void ToggleDrawWeather();
+	void ExecuteUbergraph_BP_TreeHUD(int32 EntryPoint, int32 K2Node_Event_SizeX, int32 K2Node_Event_SizeY, bool CallFunc_Not_PreBool_ReturnValue, const struct FTransform& CallFunc_MakeTransform_ReturnValue, const struct FTransform& CallFunc_MakeTransform_ReturnValue_1, class ABP_PlayerPreview_Survival_C* CallFunc_SpawnActorOfClass_OutActor, class ABP_TooltipProjectionActor_C* CallFunc_SpawnActorOfClass_OutActor_1, TMap<struct FWeatherBiomeGroupsEnum, struct FWeatherBiomeGroupForecast> K2Node_Event_BiomeGroupForecast);
+};
+
+}
+
+
