@@ -10,3 +10,4 @@ Games
 - [X] Palworld
 - [X] Tiny Tina's Wonderlands
 - [X] Breeders of the Nephelym Alpha
+- [X] Islands of Insight
