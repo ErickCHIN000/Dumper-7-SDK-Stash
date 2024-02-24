@@ -2,12 +2,13 @@
 [Dumper-7](https://github.com/Encryqed/Dumper-7)
 
 Games
-- [X] Nightingale
-- [X] Maneater
-- [X] Desolate
-- [X] Daemon X Machina
-- [X] Surroundead
-- [X] Palworld
-- [X] Tiny Tina's Wonderlands
 - [X] Breeders of the Nephelym Alpha
+- [X] Daemon X Machina
+- [X] Desolate
+- [X] Icarus
 - [X] Islands of Insight
+- [X] Maneater
+- [X] Nightingale
+- [X] Palworld
+- [X] Surroundead
+- [X] Tiny Tina's Wonderlands
