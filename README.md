@@ -2,10 +2,10 @@
 [Dumper-7](https://github.com/Encryqed/Dumper-7)
 
 Games
-- [ ] Nightingale
-- [x] Maneater
-- [x] Desolate
-- [x] Daemon X Machina
+- [X] Nightingale
+- [ ] Maneater
+- [ ] Desolate
+- [ ] Daemon X Machina
 - [ ] Surroundead
 - [ ] Palworld
 - [ ] Tiny Tina's Wonderlands
