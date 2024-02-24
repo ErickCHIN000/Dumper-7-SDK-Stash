@@ -1,0 +1,108 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// FUNCTIONS
+//---------------------------------------------------------------------------------------------------------------------
+
+
+// BlueprintGeneratedClass Action_SG_HYP_Magic_Reload.Action_SG_HYP_Magic_Reload_C
+// (None)
+
+class UClass* UAction_SG_HYP_Magic_Reload_C::StaticClass()
+{
+	static class UClass* Clss = nullptr;
+
+	if (!Clss)
+		Clss = UObject::FindClassFast("Action_SG_HYP_Magic_Reload_C");
+
+	return Clss;
+}
+
+
+// Action_SG_HYP_Magic_Reload_C Action_SG_HYP_Magic_Reload.Default__Action_SG_HYP_Magic_Reload_C
+// (Public, ClassDefaultObject, ArchetypeObject, WasLoaded, LoadCompleted)
+
+class UAction_SG_HYP_Magic_Reload_C* UAction_SG_HYP_Magic_Reload_C::GetDefaultObj()
+{
+	static class UAction_SG_HYP_Magic_Reload_C* Default = nullptr;
+
+	if (!Default)
+		Default = static_cast<UAction_SG_HYP_Magic_Reload_C*>(UAction_SG_HYP_Magic_Reload_C::StaticClass()->DefaultObject);
+
+	return Default;
+}
+
+
+// Function Action_SG_HYP_Magic_Reload.Action_SG_HYP_Magic_Reload_C.OnBegin
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// class AActor*                      Actor                                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UAction_SG_HYP_Magic_Reload_C::OnBegin(class AActor* Actor)
+{
+	static class UFunction* Func = nullptr;
+
+	if (!Func)
+		Func = Class->GetFunction("Action_SG_HYP_Magic_Reload_C", "OnBegin");
+
+	Params::UAction_SG_HYP_Magic_Reload_C_OnBegin_Params Parms{};
+
+	Parms.Actor = Actor;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+}
+
+
+// Function Action_SG_HYP_Magic_Reload.Action_SG_HYP_Magic_Reload_C.Action_WeaponReloadSprinkle
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+
+void UAction_SG_HYP_Magic_Reload_C::Action_WeaponReloadSprinkle()
+{
+	static class UFunction* Func = nullptr;
+
+	if (!Func)
+		Func = Class->GetFunction("Action_SG_HYP_Magic_Reload_C", "Action_WeaponReloadSprinkle");
+
+
+
+	UObject::ProcessEvent(Func, nullptr);
+
+}
+
+
+// Function Action_SG_HYP_Magic_Reload.Action_SG_HYP_Magic_Reload_C.ExecuteUbergraph_Action_SG_HYP_Magic_Reload
+// (None)
+// Parameters:
+// int32                              EntryPoint                                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class AActor*                      K2Node_Event_Actor                                               (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class AWeapon*                     CallFunc_K2_GetWeapon_ReturnValue                                (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UAction_SG_HYP_Magic_Reload_C::ExecuteUbergraph_Action_SG_HYP_Magic_Reload(int32 EntryPoint, class AActor* K2Node_Event_Actor, class AWeapon* CallFunc_K2_GetWeapon_ReturnValue)
+{
+	static class UFunction* Func = nullptr;
+
+	if (!Func)
+		Func = Class->GetFunction("Action_SG_HYP_Magic_Reload_C", "ExecuteUbergraph_Action_SG_HYP_Magic_Reload");
+
+	Params::UAction_SG_HYP_Magic_Reload_C_ExecuteUbergraph_Action_SG_HYP_Magic_Reload_Params Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+	Parms.K2Node_Event_Actor = K2Node_Event_Actor;
+	Parms.CallFunc_K2_GetWeapon_ReturnValue = CallFunc_K2_GetWeapon_ReturnValue;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+}
+
+}
+
+

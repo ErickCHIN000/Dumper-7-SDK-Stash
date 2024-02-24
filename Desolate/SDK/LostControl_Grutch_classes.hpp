@@ -1,0 +1,31 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// CLASSES
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x80 (0x310 - 0x290)
+// BlueprintGeneratedClass LostControl_Grutch.LostControl_Grutch_C
+class ALostControl_Grutch_C : public AGenericLostControlEffect_C
+{
+public:
+	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x290(0x8)(ZeroConstructor, Transient, DuplicateTransient)
+	struct FWeaponDetailedAnimMontageInfo        LostControlApplyAnimMontage;                       // 0x298(0x60)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
+	struct FWeaponAnimMontageInfo                CurrentPlayingMontage;                             // 0x2F8(0x18)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
+
+	static class UClass* StaticClass();
+	static class ALostControl_Grutch_C* GetDefaultObj();
+
+	void OnApply();
+	void OnFinish(bool bWasInterruptedByQTE);
+	void ExecuteUbergraph_LostControl_Grutch(int32 EntryPoint, bool K2Node_Event_bWasInterruptedByQTE, const struct FWeaponAnimMontageInfo& CallFunc_GetCurrentWeaponMontage_ReturnValue, float CallFunc_PlayWeaponAnimation_ReturnValue);
+};
+
+}
+
+

@@ -1,0 +1,58 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// CLASSES
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x150 (0x898 - 0x748)
+// BlueprintGeneratedClass Projectile_TED_Daggerstorm.Projectile_TED_Daggerstorm_C
+class AProjectile_TED_Daggerstorm_C : public AOakProjectile
+{
+public:
+	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x748(0x8)(Transient, DuplicateTransient)
+	class UWwiseAudioComponent*                  WwiseAudio;                                        // 0x750(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class USocketComponent*                      DaggerSpawnSocket_05;                              // 0x758(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class USocketComponent*                      DaggerSpawnSocket_04;                              // 0x760(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class USocketComponent*                      DaggerSpawnSocket_03;                              // 0x768(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class USocketComponent*                      DaggerSpawnSocket_02;                              // 0x770(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class USocketComponent*                      DaggerSpawnSocket_01;                              // 0x778(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class USphereComponent*                      Sphere;                                            // 0x780(0x8)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	float                                        BaseExplosionDamage;                               // 0x788(0x4)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
+	uint8                                        Pad_3A6D[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	struct FEnvQueryParams                       EnvQuery_Targets;                                  // 0x790(0xB8)(Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference)
+	TArray<class USocketComponent*>              SocketArray;                                       // 0x848(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance)
+	class UClass*                                OwnerDamageType;                                   // 0x858(0x8)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
+	class UClass*                                OwnerDamageSource;                                 // 0x860(0x8)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
+	bool                                         bIsMagicShotgun_;                                  // 0x868(0x1)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn)
+	uint8                                        Pad_3A70[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	class UWwiseEvent*                           Audio_TornadoStart_1shot;                          // 0x870(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                        NumDaggersToSpawn;                                 // 0x878(0x4)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
+	float                                        AoEDamage;                                         // 0x87C(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                        DaggerDamage;                                      // 0x880(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FRandomStream                         RandStream_HomingDagger;                           // 0x884(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
+	uint8                                        Pad_3A75[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	class UParticleSystemComponent*              DaggerstormFX;                                     // 0x890(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+	static class UClass* StaticClass();
+	static class AProjectile_TED_Daggerstorm_C* GetDefaultObj();
+
+	void CreateDaggerLightProj(const struct FVector& EndLocation, class AActor* ActorTarget, bool IsHoming, class AActor* Temp_object_Variable, bool Temp_bool_Variable, int32 Temp_int_Variable, int32 Temp_int_Variable1, bool Temp_bool_Variable1, int32 K2Node_Select_Default, class AActor* K2Node_Select1_Default, class APawn* CallFunc_GetInstigator_ReturnValue, int32 CallFunc_Array_Length_ReturnValue, int32 CallFunc_Subtract_IntInt_ReturnValue, int32 CallFunc_RandomIntegerInRange_ReturnValue, class USocketComponent* CallFunc_Array_Get_Item, const struct FVector& CallFunc_K2_GetComponentLocation_ReturnValue, const struct FLightProjectileInitializationData& K2Node_MakeStruct_LightProjectileInitializationData);
+	void CacheDamageValues(float Temp_float_Variable, const struct FDataTableRowHandle& K2Node_MakeStruct_DataTableRowHandle, float CallFunc_GetValueFromAttributeDefinedRow_ReturnValue, bool Temp_bool_Variable, float Temp_float_Variable1, const struct FDataTableRowHandle& K2Node_MakeStruct_DataTableRowHandle1, float CallFunc_GetValueFromAttributeDefinedRow_ReturnValue1, bool Temp_bool_Variable1, float Temp_float_Variable2, const struct FDataTableRowHandle& K2Node_MakeStruct_DataTableRowHandle2, float CallFunc_GetValueFromAttributeDefinedRow_ReturnValue2, const struct FDataTableRowHandle& K2Node_MakeStruct_DataTableRowHandle3, bool Temp_bool_Variable2, float CallFunc_GetValueFromAttributeDefinedRow_ReturnValue3, bool Temp_bool_Variable3, float Temp_float_Variable3, const struct FDataTableRowHandle& K2Node_MakeStruct_DataTableRowHandle4, float CallFunc_GetValueFromAttributeDefinedRow_ReturnValue4, bool Temp_bool_Variable4, float Temp_float_Variable4, const struct FDataTableRowHandle& K2Node_MakeStruct_DataTableRowHandle5, float CallFunc_GetValueFromAttributeDefinedRow_ReturnValue5, bool Temp_bool_Variable5, float Temp_float_Variable5, const struct FDataTableRowHandle& K2Node_MakeStruct_DataTableRowHandle6, float CallFunc_GetValueFromAttributeDefinedRow_ReturnValue6, const struct FDataTableRowHandle& K2Node_MakeStruct_DataTableRowHandle7, bool Temp_bool_Variable6, float CallFunc_GetValueFromAttributeDefinedRow_ReturnValue7, class AActor* CallFunc_GetOwner_ReturnValue, float CallFunc_GetValueOfAttribute_ReturnValue, bool CallFunc_EqualEqual_ClassClass_ReturnValue, float CallFunc_FMax_ReturnValue, class AActor* CallFunc_GetOwner_ReturnValue1, float CallFunc_GetValueOfAttribute_ReturnValue1, bool CallFunc_EqualEqual_ClassClass_ReturnValue1, float CallFunc_FMax_ReturnValue1, float K2Node_Select_Default, bool CallFunc_EqualEqual_ClassClass_ReturnValue2, float K2Node_Select1_Default, bool Temp_bool_Variable7, float K2Node_Select2_Default, float CallFunc_Multiply_FloatFloat_ReturnValue, float K2Node_Select3_Default, float CallFunc_Multiply_FloatFloat_ReturnValue1, float CallFunc_Multiply_FloatFloat_ReturnValue2, bool CallFunc_EqualEqual_ClassClass_ReturnValue3, float CallFunc_Multiply_FloatFloat_ReturnValue3, float K2Node_Select4_Default, bool CallFunc_EqualEqual_ClassClass_ReturnValue4, bool CallFunc_EqualEqual_ClassClass_ReturnValue5, float K2Node_Select5_Default, float K2Node_Select6_Default, float K2Node_Select7_Default, float CallFunc_Multiply_FloatFloat_ReturnValue4, float CallFunc_Multiply_FloatFloat_ReturnValue5, float CallFunc_Multiply_FloatFloat_ReturnValue6, float CallFunc_Multiply_FloatFloat_ReturnValue7);
+	void DoAreaMIRVDamage(const struct FDataTableValueHandle& K2Node_MakeStruct_DataTableValueHandle, const struct FHitResult& Temp_struct_Variable, float CallFunc_GetDataTableValueFromHandle_ReturnValue, const struct FVector& CallFunc_K2_GetActorLocation_ReturnValue, class APawn* CallFunc_GetInstigator_ReturnValue, class UParticleSystemComponent* CallFunc_PlayExplosion_ReturnValue);
+	void bullshitfunction(int32 CallFunc_Array_Add_ReturnValue, int32 CallFunc_Array_Add_ReturnValue1, int32 CallFunc_Array_Add_ReturnValue2, int32 CallFunc_Array_Add_ReturnValue3, int32 CallFunc_Array_Add_ReturnValue4);
+	void UserConstructionScript();
+	void ReceiveBeginPlay();
+	void SpawnNewDagger();
+	void BeginCleanup();
+	void ReceiveEndPlay(enum class EEndPlayReason EndPlayReason);
+	void ExecuteUbergraph_Projectile_TED_Daggerstorm(int32 EntryPoint, enum class EEndPlayReason K2Node_Event_EndPlayReason, UDelegateProperty_ K2Node_CreateDelegate_OutputDelegate, UDelegateProperty_ K2Node_CreateDelegate_OutputDelegate1, const struct FTimerHandle& CallFunc_K2_SetTimerDelegate_ReturnValue, TArray<class AActor*>& CallFunc_RunEnvQueryForAllActors_ResultActors, bool CallFunc_RunEnvQueryForAllActors_ReturnValue, int32 CallFunc_Array_Length_ReturnValue, int32 CallFunc_Subtract_IntInt_ReturnValue, int32 CallFunc_RandomIntegerInRange_ReturnValue, const struct FVector& CallFunc_K2_GetActorLocation_ReturnValue, class AActor* CallFunc_Array_Get_Item, const struct FWwisePlaybackInstance& CallFunc_PostEventAtLocation_ReturnValue, const struct FVector& CallFunc_K2_GetActorLocation_ReturnValue1, float CallFunc_Divide_FloatFloat_ReturnValue, float CallFunc_Divide_FloatFloat_ReturnValue1, const struct FTimerHandle& CallFunc_K2_SetTimerDelegate_ReturnValue1, bool CallFunc_RandomBoolWithWeightFromStream_ReturnValue, int32 CallFunc_Array_Length_ReturnValue1, int32 CallFunc_Subtract_IntInt_ReturnValue1, int32 CallFunc_RandomIntegerInRange_ReturnValue1, class USocketComponent* CallFunc_Array_Get_Item1, const struct FTransform& CallFunc_K2_GetComponentToWorld_ReturnValue, const struct FVector& CallFunc_BreakTransform_Location, const struct FRotator& CallFunc_BreakTransform_Rotation, const struct FVector& CallFunc_BreakTransform_Scale, const struct FVector& CallFunc_GetForwardVector_ReturnValue, TArray<struct FTransform>& CallFunc_GeneratePointsOnFan_ReturnValue, int32 CallFunc_Array_Length_ReturnValue2, int32 CallFunc_Subtract_IntInt_ReturnValue2, int32 CallFunc_RandomIntegerInRange_ReturnValue2, const struct FTransform& CallFunc_Array_Get_Item2, const struct FVector& CallFunc_BreakTransform_Location1, const struct FRotator& CallFunc_BreakTransform_Rotation1, const struct FVector& CallFunc_BreakTransform_Scale1, const struct FVector& CallFunc_GetForwardVector_ReturnValue1, const struct FVector& CallFunc_Multiply_VectorFloat_ReturnValue, const struct FVector& CallFunc_Add_VectorVector_ReturnValue);
+};
+
+}
+
+

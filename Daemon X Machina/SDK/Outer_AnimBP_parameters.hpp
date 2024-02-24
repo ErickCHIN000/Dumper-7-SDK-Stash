@@ -1,0 +1,332 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+namespace Params
+{
+//---------------------------------------------------------------------------------------------------------------------
+// PARAMETERS
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x4 (0x4 - 0x0)
+// Function Outer_AnimBP.Outer_AnimBP_C.BlueprintUpdateAnimation
+struct UOuter_AnimBP_C_BlueprintUpdateAnimation_Params
+{
+public:
+	float                                        DeltaTimeX;                                        // 0x0(0x4)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// 0x8 (0x8 - 0x0)
+// Function Outer_AnimBP.Outer_AnimBP_C.TryCatchActorBP
+struct UOuter_AnimBP_C_TryCatchActorBP_Params
+{
+public:
+	class UTTLArsenalCatchableActorMovement*     CatchableActorMovement;                            // 0x0(0x8)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// 0x229 (0x229 - 0x0)
+// Function Outer_AnimBP.Outer_AnimBP_C.ExecuteUbergraph_Outer_AnimBP
+struct UOuter_AnimBP_C_ExecuteUbergraph_Outer_AnimBP_Params
+{
+public:
+	int32                                        EntryPoint;                                        // 0x0(0x4)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Rule_ChangeStateLandingToMoveForCancel_ReturnValue; // 0x4(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue;            // 0x5(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_B91[0x2];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue; // 0x8(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_BooleanAND_ReturnValue;                   // 0xC(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Less_FloatFloat_ReturnValue;              // 0xD(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue;                    // 0xE(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue;          // 0xF(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue1;                  // 0x10(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Rule_ChangeStateFallingToNeutralLanding_ReturnValue; // 0x11(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue2;                  // 0x12(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Rule_ChangeStateFallingToLandingNoMotion_ReturnValue; // 0x13(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Rule_ChangeStateFallingToNeutralLanding_ReturnValue1; // 0x14(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue;                  // 0x15(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue3;                  // 0x16(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Rule_ChangeStateFallingToLandingRun_ReturnValue; // 0x17(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Less_FloatFloat_ReturnValue1;             // 0x18(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Greater_IntInt_ReturnValue;               // 0x19(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_B95[0x2];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_VSize_ReturnValue;                        // 0x1C(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Greater_FloatFloat_ReturnValue;           // 0x20(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue1;                 // 0x21(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue4;                  // 0x22(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue5;                  // 0x23(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue6;                  // 0x24(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue2;                 // 0x25(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue7;                  // 0x26(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue3;                 // 0x27(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue1; // 0x28(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_LessEqual_FloatFloat_ReturnValue;         // 0x2C(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue1;                   // 0x2D(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Rule_IsChangeStateMovingToWait_ReturnValue; // 0x2E(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue4;                 // 0x2F(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue2;                   // 0x30(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue5;                 // 0x31(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue3;                   // 0x32(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue8;                  // 0x33(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue9;                  // 0x34(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Greater_FloatFloat_ReturnValue1;          // 0x35(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue10;                 // 0x36(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue6;                 // 0x37(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue11;                 // 0x38(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue7;                 // 0x39(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue1;           // 0x3A(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue12;                 // 0x3B(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue4;                   // 0x3C(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue8;                 // 0x3D(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue13;                 // 0x3E(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Greater_FloatFloat_ReturnValue2;          // 0x3F(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue9;                 // 0x40(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue14;                 // 0x41(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue2;           // 0x42(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue5;                   // 0x43(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue6;                   // 0x44(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue10;                // 0x45(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue15;                 // 0x46(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue7;                   // 0x47(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Rule_ChangeStateFallingToLandingRun_ReturnValue1; // 0x48(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BB0[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue2; // 0x4C(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Less_FloatFloat_ReturnValue2;             // 0x50(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Rule_ChangeStateFallingToNeutralLanding_ReturnValue2; // 0x51(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue11;                // 0x52(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue12;                // 0x53(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue16;                 // 0x54(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue13;                // 0x55(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue14;                // 0x56(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue15;                // 0x57(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue16;                // 0x58(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue17;                 // 0x59(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue18;                 // 0x5A(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue17;                // 0x5B(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	float                                        CallFunc_VSize_ReturnValue1;                       // 0x5C(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_BooleanAND_ReturnValue19;                 // 0x60(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Less_FloatFloat_ReturnValue3;             // 0x61(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue18;                // 0x62(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Rule_ChangeStateLandingToMoveForCancel_ReturnValue1; // 0x63(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue8;                   // 0x64(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue1;         // 0x65(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue19;                // 0x66(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue9;                   // 0x67(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue20;                // 0x68(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BB8[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_VSize_ReturnValue2;                       // 0x6C(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Greater_FloatFloat_ReturnValue3;          // 0x70(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BB9[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue3; // 0x74(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_LessEqual_FloatFloat_ReturnValue1;        // 0x78(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue10;                  // 0x79(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue11;                  // 0x7A(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue12;                  // 0x7B(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue4; // 0x7C(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Less_FloatFloat_ReturnValue4;             // 0x80(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue13;                  // 0x81(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue21;                // 0x82(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Rule_ChangeStateLandingToMoveForCancel_ReturnValue2; // 0x83(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue5; // 0x84(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Less_FloatFloat_ReturnValue5;             // 0x88(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue14;                  // 0x89(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue22;                // 0x8A(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BBC[0x1];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue6; // 0x8C(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_LessEqual_FloatFloat_ReturnValue2;        // 0x90(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BBF[0x7];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class UAnimMontage*                          Temp_object_Variable;                              // 0x98(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Rule_ChangeStateDashStopToWait_ReturnValue; // 0xA0(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BC0[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue7; // 0xA4(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_LessEqual_FloatFloat_ReturnValue3;        // 0xA8(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue15;                  // 0xA9(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue23;                // 0xAA(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_LessEqual_FloatFloat_ReturnValue4;        // 0xAB(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue8; // 0xAC(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_LessEqual_FloatFloat_ReturnValue5;        // 0xB0(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue20;                 // 0xB1(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue21;                 // 0xB2(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue22;                 // 0xB3(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue24;                // 0xB4(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BC8[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class UAnimMontage*                          Temp_object_Variable1;                             // 0xB8(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Not_PreBool_ReturnValue25;                // 0xC0(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         Temp_bool_Variable;                                // 0xC1(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BCB[0x6];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class UAnimMontage*                          K2Node_Select_Default;                             // 0xC8(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UAnimMontage*                          Temp_object_Variable2;                             // 0xD0(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue9; // 0xD8(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_BCD[0x4];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class UAnimMontage*                          Temp_object_Variable3;                             // 0xE0(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_LessEqual_FloatFloat_ReturnValue6;        // 0xE8(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue23;                 // 0xE9(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue16;                  // 0xEA(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue17;                  // 0xEB(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue26;                // 0xEC(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue27;                // 0xED(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         Temp_bool_Variable1;                               // 0xEE(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BD1[0x1];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class UAnimMontage*                          K2Node_Select1_Default;                            // 0xF0(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_IsValid_ReturnValue;                      // 0xF8(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue28;                // 0xF9(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue24;                 // 0xFA(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BD4[0x1];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue10; // 0xFC(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_LessEqual_FloatFloat_ReturnValue7;        // 0x100(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue18;                  // 0x101(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue19;                  // 0x102(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue20;                  // 0x103(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue21;                  // 0x104(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_IsValid_ReturnValue1;                     // 0x105(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue22;                  // 0x106(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         Temp_bool_Variable2;                               // 0x107(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_IsValid_ReturnValue2;                     // 0x108(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BD7[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue11; // 0x10C(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_LessEqual_FloatFloat_ReturnValue8;        // 0x110(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BDA[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_GetRelevantAnimTimeRemaining_ReturnValue12; // 0x114(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_LessEqual_FloatFloat_ReturnValue9;        // 0x118(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue3;           // 0x119(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue29;                // 0x11A(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BDE[0x1];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_VSize_ReturnValue3;                       // 0x11C(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Greater_FloatFloat_ReturnValue4;          // 0x120(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue25;                 // 0x121(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue30;                // 0x122(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue26;                 // 0x123(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue23;                  // 0x124(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue27;                 // 0x125(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue28;                 // 0x126(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BED[0x1];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_VSizeSquared_ReturnValue;                 // 0x128(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Greater_FloatFloat_ReturnValue5;          // 0x12C(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue2;         // 0x12D(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue31;                // 0x12E(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue29;                 // 0x12F(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue4;           // 0x130(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue32;                // 0x131(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue30;                 // 0x132(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue33;                // 0x133(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue34;                // 0x134(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Rule_ChangeStateFallingToLandingNoMotion_ReturnValue1; // 0x135(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue5;           // 0x136(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue24;                  // 0x137(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue6;           // 0x138(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue35;                // 0x139(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue36;                // 0x13A(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BF7[0x1];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_Divide_FloatFloat_ReturnValue;            // 0x13C(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Not_PreBool_ReturnValue37;                // 0x140(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_BFB[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_FClamp_ReturnValue;                       // 0x144(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_BooleanAND_ReturnValue31;                 // 0x148(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue32;                 // 0x149(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue3;         // 0x14A(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue25;                  // 0x14B(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue4;         // 0x14C(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue26;                  // 0x14D(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue27;                  // 0x14E(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue5;         // 0x14F(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue7;           // 0x150(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue6;         // 0x151(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         Temp_bool_Variable3;                               // 0x152(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         K2Node_Select2_Default;                            // 0x153(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue33;                 // 0x154(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue7;         // 0x155(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Rule_ChangeStateAirTurnToMove_ReturnValue; // 0x156(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue8;         // 0x157(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue38;                // 0x158(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue8;           // 0x159(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue39;                // 0x15A(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue40;                // 0x15B(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue9;           // 0x15C(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue10;          // 0x15D(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue34;                 // 0x15E(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue28;                  // 0x15F(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue41;                // 0x160(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue29;                  // 0x161(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue30;                  // 0x162(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue11;          // 0x163(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue31;                  // 0x164(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue9;         // 0x165(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue42;                // 0x166(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         Temp_bool_Variable4;                               // 0x167(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue10;        // 0x168(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue11;        // 0x169(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue32;                  // 0x16A(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue35;                 // 0x16B(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         K2Node_Select3_Default;                            // 0x16C(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue12;        // 0x16D(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue43;                // 0x16E(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue33;                  // 0x16F(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue34;                  // 0x170(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue44;                // 0x171(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_NotEqual_ByteByte_ReturnValue12;          // 0x172(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_C0D[0x1];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	float                                        CallFunc_VSizeSquared_ReturnValue1;                // 0x174(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_Greater_FloatFloat_ReturnValue6;          // 0x178(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue35;                  // 0x179(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         Temp_bool_Variable5;                               // 0x17A(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue36;                  // 0x17B(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         K2Node_Select4_Default;                            // 0x17C(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue36;                 // 0x17D(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue37;                 // 0x17E(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanOR_ReturnValue37;                  // 0x17F(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	float                                        K2Node_Event_DeltaTimeX;                           // 0x180(0x4)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_C12[0x4];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class APawn*                                 CallFunc_TryGetPawnOwner_ReturnValue;              // 0x188(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class AOuterCharacter_C*                     K2Node_DynamicCast_AsOuter_Character;              // 0x190(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         K2Node_DynamicCast_bSuccess;                       // 0x198(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_C17[0x7];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class AOuterCharacter_C*                     K2Node_DynamicCast_AsOuter_Character1;             // 0x1A0(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         K2Node_DynamicCast_bSuccess1;                      // 0x1A8(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_EqualEqual_ByteByte_ReturnValue13;        // 0x1A9(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue38;                 // 0x1AA(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_IsLocallyControlledPlayer_ReturnValue;    // 0x1AB(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_C24[0x4];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class AOuterCharacter_C*                     K2Node_DynamicCast_AsOuter_Character2;             // 0x1B0(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         K2Node_DynamicCast_bSuccess2;                      // 0x1B8(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         Temp_bool_Variable6;                               // 0x1B9(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         K2Node_Select5_Default;                            // 0x1BA(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_C26[0x5];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class UAnimMontage*                          K2Node_Select6_Default;                            // 0x1C0(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_BooleanAND_ReturnValue39;                 // 0x1C8(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue40;                 // 0x1C9(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Montage_IsPlaying_ReturnValue;            // 0x1CA(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue41;                 // 0x1CB(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue42;                 // 0x1CC(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_C2C[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class AController*                           CallFunc_GetController_ReturnValue;                // 0x1D0(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class AArsenalController_C*                  K2Node_DynamicCast_AsArsenal_Controller;           // 0x1D8(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         K2Node_DynamicCast_bSuccess3;                      // 0x1E0(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_C32[0x7];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class AOuterCharacter_C*                     K2Node_DynamicCast_AsOuter_Character3;             // 0x1E8(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         K2Node_DynamicCast_bSuccess4;                      // 0x1F0(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_C35[0x7];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class APlayerController*                     CallFunc_GetPlayerController_ReturnValue;          // 0x1F8(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class AArsenalController_C*                  K2Node_DynamicCast_AsArsenal_Controller1;          // 0x200(0x8)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         K2Node_DynamicCast_bSuccess5;                      // 0x208(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_Not_PreBool_ReturnValue45;                // 0x209(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue43;                 // 0x20A(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue44;                 // 0x20B(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue45;                 // 0x20C(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue46;                 // 0x20D(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_BooleanAND_ReturnValue47;                 // 0x20E(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                         CallFunc_IsOuterPunchThrowing_ReturnValue;         // 0x20F(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	class UTTLArsenalCatchableActorMovement*     K2Node_Event_catchableActorMovement;               // 0x210(0x8)(ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         CallFunc_SetEnableQuickMove_ReturnValue;           // 0x218(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_C3F[0x7];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	class UArsenalCatchableActorMovement_C*      K2Node_DynamicCast_AsArsenal_Catchable_Actor_Movement; // 0x220(0x8)(ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         K2Node_DynamicCast_bSuccess6;                      // 0x228(0x1)(ZeroConstructor, IsPlainOldData, NoDestructor)
+};
+
+}
+}
+
+
