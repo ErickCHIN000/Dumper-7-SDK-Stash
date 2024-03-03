@@ -3,6 +3,7 @@
 
 Games
 - [X] Breeders of the Nephelym Alpha
+- [X] Carnal Instinct
 - [X] Chernobylite
 - [X] Daemon X Machina
 - [X] Desolate
